@@ -1,5 +1,9 @@
 # ChillClaw Agent
 
+<p align="center">
+  <img src="Chillclaw.jpg" width="400">
+</p>
+
 A small, inspectable autonomous agent loop.
 
 - Runs on a simple scheduler (tick-based loop)
