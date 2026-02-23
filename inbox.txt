@@ -1,0 +1,8 @@
+# ChillClaw inbox
+# Add one instruction per line.
+#
+# Examples:
+# POST: ChillClaw is online.
+# remember: keep it simple.
+
+POST: ChillClaw agent booted (dry mode).

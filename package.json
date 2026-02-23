@@ -1,0 +1,23 @@
+{
+  "name": "chillclaw-agent",
+  "version": "1.0.0",
+  "description": "ChillClaw Agent — a small autonomous loop agent with file-based memory and tool stubs.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "lint": "node -e \"console.log('Add your linter of choice (eslint/biome) if needed.')\""
+  },
+  "keywords": ["agent", "autonomous", "scheduler", "memory"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
